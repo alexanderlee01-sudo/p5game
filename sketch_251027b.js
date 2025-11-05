@@ -2,7 +2,7 @@ var score = 0;
 var level = 1;
 
 function preload() {
-  img = loadImage('/assets/image.png');
+  img = loadImage('assets/image.png');
 }
 
 function setup() {

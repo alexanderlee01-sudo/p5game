@@ -12,9 +12,11 @@ function setup() {
 
 
 function draw() {
-  background(255);
+  background(score*random(-1,1), score*random(-1,1), score*random(-1,1));
   image(img, 0, height*0.3, width*0.8, height*0.8);
+  fill(score*random(-1,1), score*random(-1,1), score*random(-1,1));
   text(('score:' + score), width*0.1, height*0.1);
+  fill(score*random(-1,1), score*random(-1,1), score*random(-1,1));
   text(('level:' + level), width*0.1, height*0.1+32);
   
   

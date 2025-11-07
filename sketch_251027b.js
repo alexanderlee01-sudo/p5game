@@ -6,14 +6,14 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1280, 720);
   textSize(32)
 }
 
 
 function draw() {
   background(score*random(-1,1), score*random(-1,1), score*random(-1,1));
-  image(img, 0, height*0.3, width*0.8, height*0.8);
+  image(img, width/2-((width*0.8)/2), height*0.3, width*0.8, height*0.8);
   fill(score*random(-1,1), score*random(-1,1), score*random(-1,1));
   text(('score:' + score), width*0.1, height*0.1);
   fill(score*random(-1,1), score*random(-1,1), score*random(-1,1));

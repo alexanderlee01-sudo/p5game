@@ -24,20 +24,20 @@ function draw() {
   levelone()
   } else if (score > 300 && score < 900) {
   leveltwo()
-  } else if (score > 900 && score < 5000) {
+  } else if (score > 900 && score < 2000) {
   levelthree()
-  } else if (score > 5000 && score < 20000) {
+  } else if (score > 2000 && score < 5000) {
   levelfour()
-  } else if (score > 20000 && score < 100000) {
+  } else if (score > 5000 && score < 10000) {
   levelfive()
-  } else if (score > 100000 && score < 100000000) {
+  } else if (score > 10000 && score < 100000) {
   levelsix()
   }
   
   if (mouseIsPressed === true) {
   score = score + 2
   } else {
-  score = score - 10
+  score = score - (score*0.01)
   }
   
   if (score < 0) {

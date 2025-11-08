@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   background(score*random(-1,1), score*random(-1,1), score*random(-1,1));
-  image(img, width/2-300, height*0.3, 600,600);
+  image(img, width/2-300, height*0.25, 600,600);
   fill(score*random(-1,1), score*random(-1,1), score*random(-1,1));
   text(('score:' + score), width*0.1, height*0.1);
   fill(score*random(-1,1), score*random(-1,1), score*random(-1,1));
